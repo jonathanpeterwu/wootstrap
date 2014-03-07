@@ -1,0 +1,125 @@
+/*=============================
+  Layouts will all be id's (#)
+ =============================*/
+
+
+/*Potential Fixed Width of Screen*/
+  html { min-width: 1080px;}
+
+  html, body div , p{
+    margin: auto 0 auto;
+    padding: 0;
+    border: 0;
+  }
+
+
+/*Header Footer Body layoutp*/
+  #header, #footer, #body {
+    width: 960px;
+    margin: auto;
+
+  }
+
+  #body {
+    boarder: solid black;
+    border-width: : 1px 0 0;
+  }
+
+/*Fixed vs Non-fixed layouts*/
+  #body {
+    width: 80%;
+    float: left;
+  }
+
+  #sidebar {
+    width: 20%;
+    float: right;
+  }
+
+  .l-fixed #body {
+    width: 600px;
+    float: left;
+  }
+
+  .l-fixed #sidebar {
+    width: 200px;
+    float: right;
+  }
+
+/*Custom Body*/
+
+body#wootstrap{
+  background-color: #ecf0f1;
+  background-repeat: repeat y
+}
+
+
+/*=============================
+  Modules will all be classes (.)
+ =============================*/
+
+
+
+
+/*==========================*/
+        /*Navbar*/
+/*==========================*/
+.wootstrap-navbar{
+  height: 55px;
+  width: 100%;
+  background-color: #2c3e50;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 5%;
+}
+
+ul .wootstrap-home-icon{
+  text-align: left;
+  color: #e67e22;
+  width: 10%;
+}
+
+li .wootstra-home-icon{
+  text-align: left;
+}
+
+ul {
+  text-align: right;
+  padding-right: 60px;
+}
+
+li {
+  color: #34495e;
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.3em;
+}
+
+li:hover{
+  background-color: #f39c12;
+}
+
+li a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #ecf0f1;
+}
+/*==========================*/
+        /* End Navbar*/
+/*==========================*/
+
+
+
+
+
+
+
+
